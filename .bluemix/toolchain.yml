@@ -23,7 +23,7 @@ toolchain:
       $ref: "#/messages/template.gettingStarted"
 services:
   container-repo:
-    service_id: githubRepo
+    service_id: container-repo
     parameters:
       repo_name: '{{toolchain.name}}'
       repo_url: 'https://github.com/krook/nginx-php-container-cluster'
