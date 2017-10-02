@@ -54,6 +54,6 @@ services:
 form:
   pipeline:
     parameters:
-      app-name: '{{services.toolchain.name}}'
+      app-name: '{{toolchain.name}}'
     schema:
       $ref: deploy.json
